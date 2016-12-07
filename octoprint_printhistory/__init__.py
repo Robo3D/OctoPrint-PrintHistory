@@ -144,12 +144,12 @@ class PrintHistoryPlugin(octoprint.plugin.StartupPlugin,
 
                 # version check: github repository
                 type="github_release",
-                user="imrahil",
+                user="Robo3D",
                 repo="OctoPrint-PrintHistory",
                 current=self._plugin_version,
 
                 # update method: pip w/ dependency links
-                pip="https://github.com/imrahil/OctoPrint-PrintHistory/archive/{target_version}.zip"
+                pip="https://github.com/Robo3D/OctoPrint-PrintHistory/archive/{target_version}.zip"
             )
         )
 
